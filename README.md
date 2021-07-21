@@ -1,5 +1,11 @@
 # THUMT: An Open Source Toolkit for Neural Machine Translation
 
+Implement new model on the base of THUMT.
+
+The original README can be found [here](https://github.com/THUNLP-MT/THUMT/blob/master/README.md)
+
+<!-- # THUMT: An Open Source Toolkit for Neural Machine Translation
+
 ## Contents
 
 * [Introduction](#introduction)
@@ -35,11 +41,11 @@ THUMT has currently three main implementations:
 
 The following table summarizes the features of three implementations:
 
-| Implementation | Model | Criterion | Optimizer | LRP |
-| :------------: | :---: | :--------------: | :--------------: | :----------------: |
-| Theano       |  RNNsearch | MLE, MRT, SST | SGD, AdaDelta, Adam | RNNsearch |
-| TensorFlow   |  Seq2Seq, RNNsearch, Transformer | MLE| Adam | RNNsearch, Transformer |
-| PyTorch | Transformer | MLE | SGD, Adadelta, Adam | N.A. |
+| Implementation |              Model              |   Criterion   |      Optimizer      |          LRP           |
+| :------------: | :-----------------------------: | :-----------: | :-----------------: | :--------------------: |
+|     Theano     |            RNNsearch            | MLE, MRT, SST | SGD, AdaDelta, Adam |       RNNsearch        |
+|   TensorFlow   | Seq2Seq, RNNsearch, Transformer |      MLE      |        Adam         | RNNsearch, Transformer |
+|    PyTorch     |           Transformer           |      MLE      | SGD, Adadelta, Adam |          N.A.          |
 
 We recommend using [THUMT-PyTorch](https://github.com/thumt/THUMT) or [THUMT-TensorFlow](https://github.com/thumt/THUMT/tree/tensorflow), which delivers better translation performance than [THUMT-Theano](https://github.com/thumt/THUMT/tree/theano). We will keep adding new features to [THUMT-PyTorch](https://github.com/thumt/THUMT) and [THUMT-TensorFlow](https://github.com/thumt/THUMT/tree/tensorflow).
 
@@ -90,4 +96,4 @@ If you have questions, suggestions and bug reports, please email [thumt17@gmail.
 * [UCE4BT](https://github.com/THUNLP-MT/UCE4BT) (Improving Back-Translation with Uncertainty-based Confidence Estimation)
 * [L2Copy4APE](https://github.com/THUNLP-MT/L2Copy4APE) (Learning to Copy for Automatic Post-Editing)
 * [Document-Transformer](https://github.com/THUNLP-MT/Document-Transformer) (Improving the Transformer Translation Model with Document-Level Context)
-* [PR4NMT](https://github.com/THUNLP-MT/PR4NMT) (Prior Knowledge Integration for Neural Machine Translation using Posterior Regularization)
+* [PR4NMT](https://github.com/THUNLP-MT/PR4NMT) (Prior Knowledge Integration for Neural Machine Translation using Posterior Regularization) -->
